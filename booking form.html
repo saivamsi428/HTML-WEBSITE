@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color:antiquewhite;
+                background-image: url("yamaha.jpg");
+            }
+            /* .img1{
+                z-index:-1; 
+                height:400px ;
+                width: 320px;
+                margin-left:50%;
+                
+            } */
+            .add1{
+                height: 75;
+                width: 200;
+            }
+            .submit{
+                margin-left: 10%;
+                size:100px;
+            }
+            .form{
+                z-index:2
+            }
+            .button{
+                position:relative;
+                left:88%;
+                top:0%;
+                background-color: lightblue;
+            }
+            .button1{
+                position:relative;
+                left:90%;
+                top:0%;
+                background-color: lightblue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1><u>YAMAHA</u></h1>
+        <button class="button">
+            <a href="file:///C:/Users/hp/Desktop/mi/website%202/yamaha.html">Home</a>
+        </button>
+        <button class="button1">
+                <a href="file:///C:/Users/hp/Desktop/mi/website%202/contactdetails.html">Contact</a>
+        </button>
+        <form class="form">
+            <table>
+                <tr>
+                    <td><label>NAME:</label></td>
+                    <td><input type="text" ></td>
+                </tr>
+                <tr>
+                    <td><label>E-mail:</label></td>
+                    <td><input type="email" ></td>
+                </tr>
+                <tr>                    
+                    <td><label>ADDRESS:</label></td>
+                    <td><textarea></textarea></td>
+                </tr>
+                
+            </table><br>
+            <b>Payment Details:</b><br><br>
+            <table>
+                <tr>
+                    <td><label>Credit Card Number:</label></td>
+                    <td><input type="text" ></td>
+                </tr>
+                <tr>
+                    <td><label>cvv:</label></td>
+                    <td><input type="email" ></td>
+                </tr>
+                <tr>                    
+                    <td><label>Expiry Date:</label></td>
+                    <td><input type="date" ></td>
+                </tr>
+                <tr>                    
+                    <td><label>Amount:</label></td>
+                    <td><input type="text" ></td>
+                </tr>
+                
+            </table><br>
+            <!-- <label>Credit Card Number:</label>
+            <input type="text" ><br><br>
+            <label>cvv:</label>
+            <input type="text" ><br><br>
+            <label>Expiry Date:</label>
+            <input type="date" ><br><br>
+            <label>Amount:</label>
+            <input type="text" ><br><br> -->
+            <input class="submit" type="submit"  name="PAY" onclick="myFunction()"><br>
+
+        <script>
+             function myFunction(){
+             alert("submission successful!");
+             }
+        </script>
+        </form>
+        <!-- <img  class="img1" src="yamaha.jpg"> -->
+    </body>
+</html>
